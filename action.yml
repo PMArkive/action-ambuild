@@ -72,7 +72,7 @@ runs:
         ${{ inputs.cc }} --version
         ${{ inputs.cxx }} --version
 
-    - uses: actions/setup-python@v5
+    - uses: actions/setup-python@v6
       name: Setup Python
       with:
         python-version: 3.13
